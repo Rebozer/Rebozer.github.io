@@ -285,7 +285,5 @@ font-size: 27px;
     }
 }
 @media(max-width: 1174px){
-  button{
-    display: none;
-  }
+ 
 }
