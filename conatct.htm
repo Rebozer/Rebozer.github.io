@@ -71,15 +71,15 @@
 <div class="contact-form">
 <span class="circle one"></span>
 <span class="circle two"></span>
-<form method="POST" action="https://script.google.com/macros/s/AKfycbyEcCKEaq23Ihwx1r0qYgHQll0IDQK0ix0IhEpoBy7K1mvWPD8zqmK5nFP2aXM-y0en/exec" autocomplete="off">
+<form method="POST" action="https://script.google.com/macros/s/AKfycbyEcCKEaq23Ihwx1r0qYgHQll0IDQK0ix0IhEpoBy7K1mvWPD8zqmK5nFP2aXM-y0en/exec" >
 <h3 class="title">Contact us</h3>
 <div class="input-container">
-<input type="text" name="name" class="input" />
+<input type="text" name="name" class="input" required/>
 <label for="">Name</label>
 <span>Name</span>
 </div>
 <div class="input-container">
-<input type="email" name="email" class="input" />
+<input type="email" name="email" class="input" required />
 <label for="">Email</label>
 <span>Email</span>
 </div>
@@ -89,11 +89,11 @@
 <span>Phone</span>
 </div>
 <div class="input-container textarea">
-<textarea name="message" class="input"></textarea>
+<textarea name="message" class="input"required></textarea>
 <label for="">Message</label>
 <span>Message</span>
 </div>
-<input type="submit" value="Send" class="btn" />
+<input type="submit" value="Send message" class="btn" id="submit" />
 </form>
 </div>
 </div>
