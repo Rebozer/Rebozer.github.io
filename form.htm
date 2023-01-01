@@ -1,192 +1,109 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-        <meta charset="UTF-8">
-        <title>Registion Form</title>
-        <link rel="<link rel="stylesheet" href="css/font/css/fontawesome.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/css/fontAwesome.css">
-        <link rel="stylesheet" href="css/css/hero-slider.css">
-        <link rel="stylesheet" href="css/templatemo-main.css">
-        <link rel="stylesheet" href="css/font/owl-carousel.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-        <link href="font/font/css/all.min.css" rel="stylesheet">
-<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-<link rel="stylesheet" href="font/css/all.min.css" />
-<script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/form.css.css">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
-        
-        <meta name="viewport" content="width=device-width, intial-scale=1.0">
-    </head>
-    <body>
-        <div class="fixed-side-navbar">
-            <ul class="nav flex-column">
-                <li class="nav-item"><a class="nav-link" href="index.htm"><span><b>Home</b></span></a></li>
-                <li class="nav-item"><a class="nav-link" href="service.htm"><span ><b>Services</b></span></a></li>
-               <li class="nav-item"><a class="nav-link" href="aboutus.htm"><span><b>About Us</b></span></a></li>
-              <li class="nav-item"><a class="nav-link" href="conatct.htm"><span class="active"><b>Contact Us</b></span></a></li>
-            </ul>
-        </div>
-         <form>
-            <table>
-                <div class="container">
-                        <div class="form">
-                            <div class="heading">
-                                
-                                <h2><strong>Booking</strong></h2>
-                            </div>
-                            <!--form-->
-                            <div class="wrap2">    
-                                
-                                <small>Name</small><br>
-                                    <input type="text" id="name" required>
-                                    <span class="focus-input"></span>
-                            
-                            </div>  
-                        
-                        <div class="wrap3">
-                            <small>Category</small>
-                        <div class="select-box">
-                            <div class="options-container">
-                            <div class="option">
-                            <input
-                            type="radio"
-                            class="radio"
-                            id="automobiles"
-                            name="category"
-                            />
-                            <label for="automobiles">-Select-</label>
-                            </div>
-                            <div class="option">
-                                <input type="radio" class="radio" id="science" name="category" />
-                                <label for="science">Birthday Event</label>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+
+    <!-- Title Page-->
+    <title>Book Now</title>
+
+    <!-- Icons font CSS-->
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Vendor CSS-->
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="css/main.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+    <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
+        <div class="wrapper wrapper--w680">
+            <div class="card card-4">
+                <div class="card-body">
+                    <h2 class="title">BOOKING</h2>
+                    <form method="POST" action="https://script.google.com/macros/s/AKfycbwoDSytBfU7W84iL6Qj30GBQMk7Rn18RoaOcqvEjkV81K9FWuicBU-kw8CFIlIUJYo/exec">
+                                <div class="input-group">
+                                    <label class="label">Name</label>
+                                    <input class="input--style-4" type="text" name="name" required>
                                 </div>
-                            <div class="option">
-                            <input type="radio" class="radio" id="science" name="category" />
-                            <label for="science">Baby Shower</label>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Category</label>
+                                    <div class="rs-select2 js-select-simple select--no-search">
+                                        <select name="category" >
+                                            <option disabled="disabled" selected="selected">Choose option</option>
+                                            <option>Birthday Event</option>
+                                            <option>Baby Shower</option>
+                                            <option>Circumsition Cermony</option>
+                                            <option>Bridal/Groom Shower</option>
+                                            <option>College Fest</option>
+                                            <option>Inaugration Event</option>
+                                            <option>Napoli</option>
+                                            <option>Other</option>
+                                        </select>
+                                        <div class="select-dropdown"></div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="option">
-                            <input type="radio" class="radio" id="art" name="category" />
-                            <label for="art">Circumsition Cermony</label>
+                            <div class="col-2"> <div class="input-group">
+                                    <label class="label">Cermony Date</label>
+                                    <div class="input-group-icon">
+                                        <input class="input--style-4 js-datepicker" type="text" name="date">
+                                        <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="option">
-                            <input type="radio" class="radio" id="music" name="category" />
-                            <label for="music">Bridal/Groom Shower</label>
-                            </div>
-                            <div class="option">
-                            <input type="radio" class="radio" id="travel" name="category" />
-                            <label for="travel">College Fest</label>
-                            </div>
-                            <div class="option">
-                            <input type="radio" class="radio" id="sports" name="category" />
-                            <label for="sports">Inaugration Event</label>
-                            </div>
-                            <div class="option">
-                            <input type="radio" class="radio" id="news" name="category" />
-                            <label for="news">Napoli</label>
-                            </div>
-                            <div class="option">
-                            <input type="radio" class="radio" id="tutorials" name="category" />
-                            <label for="tutorials">Other</label>
-                            </div>
-                            </div>
-                            <div class="selected">
-                            -Select-
-                            </div>
-                            
-                            </div>
-                            </div>
-                            
-                            
-                            <div class="wrap2">    
-                                
-                                    <small>Email</small><br>
-                                        <input type="email" id="email" required >
-                                        <span class="focus-input"></span>
-                                
-                            </div>    
-                            
-                            <div class="wrap">
-                                    <div class="f1">
-                                    <small>Country Code</small><br>
-                                   <input type=text maxlength="3"  pattern=\d title="Please enter a valid Country Code" required>
-                                          <span class="focus-input"></span> 
-                                   </div>
-                                   
-                            
-                            
-                            <div class="f2">
-                                <small>Phone No.</small><br>
-                                <input type=text id="phone" maxlength="10" pattern=\d{7} title="Please enter exactly 10 Digit" required>
-                                <span class="focus-input"></span>
-                                </div>   
-                            </div>
-                            <div class="wrap2">
-                                
-                                    <small>Address</small><br>
-                                        <textarea type="text" id="address" required></textarea>
-                                        <span class="focus-input"></span>
-                                
-                                                    
-                            </div>
-                        <div class="btn">
-                            <button type="submit" id="submit" name="Login" value="Register" placeholder="" onclick="popUp()" class="reg-btn">Register</button>
-                        </div>    
                         </div>
-                        <!--Image-->
-                        <div class="image">
-                            <img src="sign-in.jpg" class="img" alt=""/>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Email</label>
+                                    <input class="input--style-4" type="email" name="email" required>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Phone Number</label>
+                                    <input class="input--style-4" type="text" id="phone" name="phone"  required>
+                                </div>
+                            </div>
                         </div>
-                        
-                 </div>    
-            </table>
+                        <div class="input-group">
+                            <label class="label">Address</label>
+                            <input class="input--style-4" type="text" name="address" required>
+                        </div>
+                        <div class="p-t-15">
+                            <button class="btn btn--radius-2 btn--blue" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
-         </form>
-         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-         <script src="main.js"></script>
-         <script src="app.js"></script>
-    </body>
-    
-    
-    
+    <!-- Jquery JS-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Vendor JS-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/datepicker/moment.min.js"></script>
+    <script src="vendor/datepicker/daterangepicker.js"></script>
 
+    <!-- Main JS-->
+    <script src="js/global.js"></script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 
 </html>
+<!-- end document-->
