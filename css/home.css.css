@@ -51,16 +51,15 @@ padding: 0 30px;
     cursor: pointer;
   }
   button:hover{
-    border-color: #451f16;
+    border-color: #e09e9e;
     
     
   }
   button a:hover{
-    color: #dfa395;
+    color: #fff;
   }
   button a {
      color: #fbfcfd;
-    text-decoration: none;
      font-family: monospace;
     font-weight: bolder;
   }
